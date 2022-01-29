@@ -1,0 +1,25 @@
+body > header {
+  display: inline;
+}
+
+app-bar {
+  display: inline;
+}
+
+app-bar nav {
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+}
+
+app-bar img {
+  height: 40px;
+}
+
+app-bar .navbar-brand {
+  margin-right: 0.5rem !important;
+}
+
+app-bar span {
+  color: white;
+}

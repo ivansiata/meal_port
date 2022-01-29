@@ -1,0 +1,25 @@
+food-category-list {
+  margin-top: 0 !important;
+}
+
+food-category-item img {
+  height: 80% !important;
+  width: 80% !important;
+  margin: auto;
+}
+
+food-category-item .card {
+  padding: 10px 0px;
+}
+
+food-category-item .card-text {
+  height: 80px;
+  overflow: auto;
+}
+
+.accordion-body img {
+  object-position: center;
+  object-fit: cover;
+  max-height: 150px;
+  width: 100%;
+}

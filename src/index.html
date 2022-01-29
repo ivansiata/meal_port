@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <app-bar title="MealPort" logo="fast-food.png"></app-bar>
+    </header>
+    <main class="container">
+      <header class="row g-2">
+        <h1>Find your favourite meal!</h1>
+        <food-card class="col-md-8"></food-card>
+        <aside class="col-md-4">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+          </ul>
+        </aside>
+      </header>
+      <article id="mealByCategory" class="row justify-content-between">
+        <h1 class="text-center">Meal Categories</h1>
+        <food-category-list class="row g-3"></food-category-list>
+      </article>
+      <food-modal
+        class="modal fade"
+        id="foodByCategoryModal"
+        tabindex="-1"
+        aria-labelledby="foodByCategoryModalLabel"
+        aria-hidden="true"
+      >
+      </food-modal>
+    </main>
+    <footer>
+      <p>MealPort &copy; 2021, Ivan Siata</p>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/wanicon" title="wanicon"
+          >wanicon</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

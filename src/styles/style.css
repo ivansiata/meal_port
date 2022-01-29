@@ -1,0 +1,60 @@
+@import "food-category.css";
+@import "app-bar.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --primary: #001e32;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.row {
+  margin-top: 2rem;
+}
+
+main header h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background-color: #336699;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
+
+main header img {
+  object-position: center;
+  object-fit: cover;
+  max-height: 200px;
+  width: 100%;
+}
+
+main header .card-text {
+  max-height: 150px;
+  overflow: auto;
+}
+
+footer {
+  margin-top: 50px;
+  padding-block: 10px;
+  background-color: #336699;
+  width: 100%;
+}
+
+footer p,
+footer div {
+  margin: auto;
+  color: white;
+  width: 400px;
+  text-align: center;
+}
+
+footer a {
+  color: black;
+}
